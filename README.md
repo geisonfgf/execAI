@@ -304,6 +304,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Issues**: [GitHub Issues](https://github.com/geisonfgf/execai/issues)
 - **Email**: geisonfgf@gmail.com
 
+## ☕ Support the Project
+
+This project is maintained with love! If you find execAI useful, consider buying me a coffee:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20Development-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://mpago.la/2SL49w3)
+
+Your support helps keep this project alive and enables continuous improvements!
+
 ---
 
 ⚠️ **Important**: Always review commands before execution, especially when disabling safe mode. execAI is a powerful tool that can modify your system.

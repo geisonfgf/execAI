@@ -6,8 +6,8 @@ system commands using natural language processing powered by AI.
 """
 
 __version__ = "0.1.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
+__author__ = "Geison Felipe Góes Flores"
+__email__ = "geisonfgf@gmail.com"
 
 # Imports will be added once the modules are created
 # from .application.config import Settings
