@@ -1,0 +1,15 @@
+# Core dependencies for execAI
+typer[all]>=0.9.0
+langgraph>=0.2.0
+langchain>=0.2.0
+langchain-openai>=0.1.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+croniter>=1.4.0
+schedule>=1.2.0
+psutil>=5.9.0
+rich>=13.0.0
+structlog>=23.0.0
+aiofiles>=23.0.0
+click>=8.0.0 
