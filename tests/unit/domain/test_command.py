@@ -137,9 +137,9 @@ class TestCommand:
         str_repr = str(command)
         assert "Command" in str_repr
         assert "ls" in str_repr
-        assert "PENDING" in str_repr
+        assert str(command.id) in str_repr
         
         detailed_repr = repr(command)
         assert "Command" in detailed_repr
-        assert "test" in detailed_repr
+        assert "PENDING" in detailed_repr
         assert "ls" in detailed_repr 

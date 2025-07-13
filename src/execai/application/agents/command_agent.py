@@ -182,9 +182,9 @@ class CommandAgent:
             return state
         
         try:
-                         schedule = Schedule(
-                 name=f"Schedule for: {interpretation.original_request}",
-                 description="Auto-generated schedule for command execution",
+            schedule = Schedule(
+                name=f"Schedule for: {interpretation.original_request}",
+                description="Auto-generated schedule for command execution",
                 schedule_type=ScheduleType(schedule_info.get("type", "once")),
                 cron_expression=schedule_info.get("cron_expression"),
                 start_time=self._parse_time(schedule_info.get("start_time")),

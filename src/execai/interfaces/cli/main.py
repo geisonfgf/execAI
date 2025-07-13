@@ -196,7 +196,7 @@ def config() -> None:
     config_table.add_column("Value", style="green")
     
     config_table.add_row("Environment", settings.app_environment)
-    config_table.add_row("Debug Mode", str(settings.debug))
+    config_table.add_row("Log Level", settings.log_level)
     config_table.add_row("Safe Mode", str(settings.safe_mode))
     config_table.add_row("Confirmation Required", str(settings.confirmation_required))
     config_table.add_row("Max Execution Time", f"{settings.max_execution_time}s")
