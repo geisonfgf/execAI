@@ -110,7 +110,7 @@ class CommandAgent:
         ]
         
         try:
-            response = self.llm(messages)
+            response = self.llm.invoke(messages)
             interpretation = self.parser.parse(response.content)
             
             state["messages"] = messages + [response]
